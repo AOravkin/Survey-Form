@@ -69,10 +69,12 @@ button {
   border: 1px solid black;
   border-radius: 5px;
   box-shadow: 2px 2px 2px #777;
+  transition: all 0.5s;
 }
 
 button:hover {
   cursor: pointer;
   background-color: #444;
   transform: scale(1.1);
+  transition: all 0.5s;
 }
