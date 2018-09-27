@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+main {
+  background-color: #fff;
+  max-width: 70%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 5px 5px 10px #999;
+}
+
+#survey-form {
+  width: 80%;
+  margin: auto;
+}
+
+#description {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  font-size: 1.1rem;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.left {
+  width: 45%;
+  text-align: right;
+  margin: 5px;
+}
+
+.right {
+  width: 45%;
+  text-align: left;
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin: auto;
+  background-color: blue;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  font-size: 1.2rem;
+  display: block;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #777;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #444;
+  transform: scale(1.1);
+}
